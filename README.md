@@ -24,4 +24,3 @@ If you want to rerun it,
 ```
 make clean && make
 ```
-first
