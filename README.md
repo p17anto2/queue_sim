@@ -9,8 +9,8 @@ It creates 4 plots:
 
 - 2D Time - Average State
 - 2D Arrival Rate - Average State and Throughput
-- 3D State_A Departure Rate - State_B Departure Rate - Average State
-- 3D State_A Departure Rate - State_B Departure Rate - Throughput
+- 3D Server_A Departure Rate - Server_B Departure Rate - Average State
+- 3D Server_A Departure Rate - Server_B Departure Rate - Throughput
 
 ## How to use
 
