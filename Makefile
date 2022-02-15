@@ -16,8 +16,6 @@ release: build_folder
 
 run: release
 	cd $(BIN_FOLDER); ./$(BIN)
-
-open:
 	cd $(BIN_FOLDER); \
 		xdg-open averages.png; \
 		xdg-open var_arr.png; \

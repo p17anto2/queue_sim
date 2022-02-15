@@ -12,8 +12,16 @@ It creates 4 plots:
 - 3D State_A Departure Rate - State_B Departure Rate - Average State
 - 3D State_A Departure Rate - State_B Departure Rate - Throughput
 
-Use 
+## How to use
+
+To create a build folder, compile, run and open the generated png images with xdg-open, use 
 ```
 make
 ```
-to create a build folder, compile, run and open the generated png images with xdg-open.
+
+
+If you want to rerun it, make sure to
+```
+make clean
+```
+first
