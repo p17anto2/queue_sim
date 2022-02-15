@@ -6,7 +6,7 @@ BIN = sim
 all: run
 
 build_folder:
-	ls BIN_FOLDER/ 1>/dev/null 2>/dev/null || mkdir BIN_FOLDER/
+	ls $(BIN_FOLDER)/ 1>/dev/null 2>/dev/null || mkdir $(BIN_FOLDER)/
 
 debug: build_folder
 	$(CC) -g -Wall $(FILES) -o $(BIN_FOLDER)/$(BIN)

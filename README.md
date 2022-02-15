@@ -20,8 +20,8 @@ make
 ```
 
 
-If you want to rerun it, make sure to
+If you want to rerun it,
 ```
-make clean
+make clean && make
 ```
 first
