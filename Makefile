@@ -3,7 +3,6 @@ CC = gcc
 BIN_FOLDER = build
 BIN = sim
 
-sdfhsjfhkdjshsdj
 all: run
 
 build_folder:
