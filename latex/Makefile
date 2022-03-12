@@ -5,7 +5,7 @@ compile:
 	mv analysis.pdf ../analysis.pdf
 
 view: compile
-	evince ../analysis.pdf &
+	xdg-open ../analysis.pdf &
 
 clean:
 	rm *.aux *.log *.out
