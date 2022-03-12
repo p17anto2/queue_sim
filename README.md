@@ -1,7 +1,7 @@
 Queue Simulation 
 ----------------
 
-Simulates a M/M/2/10 Queue, where the second server wakes up after a stage K.
+Simulates a M/M/2/10 Queue, where the second server wakes up after stage K=6.
 
 Works on Linux, and uses gnuplot (and make).
 
